@@ -1,0 +1,298 @@
+body {
+  margin: 0;
+  font-family: "Varela Round", sans-serif;
+}
+
+.l{
+  text-decoration: none;
+}
+
+.mR {
+  color: #00704a;
+  font-size: 45px;
+  font-family: "Parisienne", cursive;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.logo {
+  font-size: 45px;
+  text-decoration: none;
+  margin: 10px;
+  font-family: "Parisienne", cursive;
+}
+.main-nav {
+  padding: 0;
+  list-style: none;
+  font-family: "Lobster Two", cursive;
+}
+.main-nav li {
+  display: inline;
+  margin: 10px;
+}
+.main-nav li a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 17px;
+  padding: 10px;
+  color: #00704a;
+}
+.main-nav li a:hover {
+  background-color: #00704a;
+  color: white;
+  border-radius: 10px;
+}
+.search-input {
+  border: none;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+}
+.search-div {
+  border: 1px solid #00704a;
+  border-radius: 8px;
+  padding: 6px;
+  box-shadow: 3px 3px 4px #aaa;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn-primary {
+  background-color: #00704a;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.btn-primary:hover {
+  background: none;
+  color: azure;
+  border: 3px solid #00704a;
+}
+#banner {
+  background-image: url(cover.jpg);
+  height: 69vh;
+  background-size: contain;
+  
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+ 
+  background-attachment: fixed;
+}
+
+
+
+
+
+::placeholder {
+  font-family: "Poppins", sans-serif;
+}
+
+
+.white {
+  color: white;
+}
+
+.sales-text {
+  font-size: 50px;
+  font-family: "Dancing Script", cursive;
+  margin: 20px;
+  color: aqua;
+}
+.hurry {
+  font-size: 70px;
+  margin: 0;
+  font-family: "Dancing Script", cursive;
+  color: rgb(58, 206, 206);
+}
+.shop-now {
+  margin-top: 25px;
+}
+.sales-text,
+.hurry,
+.shop-now {
+  position: relative;
+  right: 15%;
+}
+
+.percent {
+  font-size: 65px;
+  color: #00704a;
+  font-weight: bold;
+}
+#special {
+  display: flex;
+  justify-content: space-between;
+}
+.special1,
+.special2,
+.special3,
+.special4 {
+  border: 1px solid #cfd8dc;
+  border-radius: 10px;
+  padding: 25px;
+  margin-top: 50px;
+  box-shadow: 4px 4px 4px #ccc;
+  text-align: centre;
+  width: 25%;
+}
+.purple {
+  color: #00704a;
+}
+.s-text {
+  font-size: 20px;
+  font-weight: bold;
+}
+#winter,
+#Appetizer,
+#japanese,
+#italian,
+#nepali,
+#Newari,
+#Dessert,
+#partners {
+  margin-top: 50px;
+}
+#winter h2 {
+  font-size: 35px;
+  font-family: "Pacifico", cursive;
+}
+.text-center {
+  text-align: center;
+}
+
+.new {
+  font-weight: bold;
+  color: #00704a;
+}
+.card-footer a {
+  color: #00704a;
+  font-size: 30px;
+  margin: 20px;
+  text-decoration: none;
+}
+.summer-content {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-around;
+}
+.p1,
+.p2,
+.p3,
+.p4 {
+  width: 20%;
+}
+.partner {
+  margin: 20px;
+}
+.contact,
+.socials,
+.ql {
+  list-style: none;
+  padding: 0px;
+}
+footer {
+  background-color: rgb(228, 238, 235);
+  color: #00704a;
+  line-height: 30px;
+  margin-top: 50px;
+}
+.socials li {
+  display: inline;
+  margin: 10px;
+}
+.socials li a,
+.ql li a {
+  color: #00704a;
+  text-decoration: none;
+}
+.socials li a:hover,
+.card-footer a:hover {
+  color: #87285d;
+}
+
+.btn-subscribe {
+  background: #00704a;
+  color: white;
+  border-radius: 3px;
+  text-decoration: none;
+  padding: 10px;
+}
+.btn-subscribe:hover {
+  background: none;
+  color: #00704a;
+  border: 1px solid #00704a;
+  font-weight: bold;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-around;
+  padding: 25px;
+}
+.news input {
+  line-height: 30px;
+  outline-color: #00704a;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+}
+.payment {
+  margin: 15px;
+}
+.foot-text {
+  padding-top: 14px;
+  padding-bottom: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+
+
+/* TEST TEST TEST TEST TEST */
+
+.dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  margin-top: 10px;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 20px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-radius: 10px;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  border-radius: 10px;
+}
+
